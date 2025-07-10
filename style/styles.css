@@ -123,3 +123,120 @@ header{
     font-size: 20px;
     text-align: center;
 }
+
+
+/* what our users say  */
+
+.certificate{
+    max-width: 1140px;
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.certificate h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #252432;
+}
+
+.certificate-cards{
+     display: flex;
+     gap: 30px;
+     justify-content: center;
+}
+
+.card{
+  background-color: #F2EDED;
+  border-radius: 14px;
+  padding: 20px;
+  max-width: 366px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.star{
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.star img {
+  width: 18px;
+  height: 18px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #1f2937;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  color: #333;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+}
+
+
+/* ready to focus better  */
+
+.level-up{
+    max-width: 1140px;
+    height: 697px;
+    border-radius: 14px;
+    margin: 137px auto;
+    text-align: center;
+    background-color: white;
+    padding: 100px 70px;
+}
+
+.level-up-presence h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.level-up-presence p{
+    font-size: 16px;
+    margin-top: 20px;
+    color:rgb(0, 0, 0, 50%);
+}
+
+.level-up-presence a{
+   position: relative;
+   top: 25px;
+}
+
+.webflow-confo-image img{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-top: 50px;
+}
