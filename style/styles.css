@@ -54,4 +54,72 @@ header{
     font-size: 65px;
     margin-bottom: 40px;
 }
+/* main section start  */
+.main-action-section{
+    max-width: 1140px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    margin: 116px auto;
+}
 
+.action-section{
+    width: 517px;
+    height: 203px;
+    margin:63px 0 ;
+    
+}
+.main-header{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.main-para-one{
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.webflow-image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* main section 2  */
+
+.thousand-people{
+    max-width: 1140px;
+    height: 306px;
+    margin: 116px auto;
+    background-color: rgb(79, 71, 255, 10%);
+    border-radius: 24px;
+}
+.all-users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: 'inter', sans-serif;
+    color: #4E47FF;
+    padding-top: 60px;
+    /* padding: 80px 50px; */
+}
+.join-header{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.subscribe{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.subscribe .active-para{
+    font-size: 20px;
+    text-align: center;
+}
