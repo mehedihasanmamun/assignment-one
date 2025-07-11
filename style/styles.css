@@ -240,3 +240,40 @@ header{
     border-radius: 48px;
     margin-top: 50px;
 }
+/* input form  */
+.input-form{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-form h1{
+    width: 528px;
+    font-size: 97px;
+    font-weight: bold;
+}
+
+ main input[type="text"], main input[type="email"], main textarea{
+    padding: 20px 32px;
+    width: 497px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+ }
+  
+
+ .get-in-touch-form label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+ }
+
+ main input[type="submit"]{
+    width: 497px;
+    margin-top: 10px;
+ }
